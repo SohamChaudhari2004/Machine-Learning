@@ -1,0 +1,38 @@
+# Ignore .ipynb checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore dataset files to avoid large file issues
+NLP & ML Basics/Reviews.csv
+
+
+# Ignore environment or Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook temporary files
+*.~nb
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore Git-related temporary files
+*.lock
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Ignore Git LFS metadata if necessary
+.gitattributes.lock
